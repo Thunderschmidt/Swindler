@@ -13,10 +13,10 @@ end
 
 target 'Swindler' do
   pod 'PromiseKit/CorePromise', '~> 6.0'
-  pod 'AXSwift', path: './AXSwift'
+  pod 'AXSwift', :git => 'https://github.com/tmandry/AXSwift'
 end
 
 target 'SwindlerExample' do
   pod 'PromiseKit/CorePromise', '~> 6.0'
-  pod 'AXSwift', path: './AXSwift'
+  pod 'AXSwift', :git => 'https://github.com/tmandry/AXSwift'
 end
